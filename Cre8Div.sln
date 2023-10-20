@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cre8Div", "Cre8Div/Cre8Div.csproj", "{B354E38F-5D08-49BB-9F5A-69992C12C90B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cre8Div.Examples", "Cre8Div.Example/Cre8Div.Example.csproj", "{C6A72CBB-76A0-4F9B-892E-2857A38DBE62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B354E38F-5D08-49BB-9F5A-69992C12C90B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B354E38F-5D08-49BB-9F5A-69992C12C90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B354E38F-5D08-49BB-9F5A-69992C12C90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B354E38F-5D08-49BB-9F5A-69992C12C90B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7402D76C-3D12-4C67-B9E5-440F8FE6DE25}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+/Users/noahspielman/Projects/tools/Cre8Div/Out/Cre8Div.dll
+/Users/noahspielman/Projects/tools/Cre8Div/Out/Cre8Div.deps.json
+/Users/noahspielman/Projects/tools/Cre8Div/Out/Cre8Div.pdb
+/Users/noahspielman/Projects/tools/Cre8Div/Out/Microsoft.AspNetCore.Authorization.dll
+/Users/noahspielman/Projects/tools/Cre8Div/Out/Microsoft.AspNetCore.Components.dll
+/Users/noahspielman/Projects/tools/Cre8Div/Out/Microsoft.AspNetCore.Components.Forms.dll
+/Users/noahspielman/Projects/tools/Cre8Div/Out/Microsoft.AspNetCore.Components.Web.dll
+/Users/noahspielman/Projects/tools/Cre8Div/Out/Microsoft.AspNetCore.Metadata.dll
+/Users/noahspielman/Projects/tools/Cre8Div/Out/Microsoft.Extensions.DependencyInjection.dll
+/Users/noahspielman/Projects/tools/Cre8Div/Out/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/noahspielman/Projects/tools/Cre8Div/Out/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/noahspielman/Projects/tools/Cre8Div/Out/Microsoft.Extensions.Options.dll
+/Users/noahspielman/Projects/tools/Cre8Div/Out/Microsoft.Extensions.Primitives.dll
+/Users/noahspielman/Projects/tools/Cre8Div/Out/Microsoft.JSInterop.dll
+/Users/noahspielman/Projects/tools/Cre8Div/Out/System.IO.Pipelines.dll

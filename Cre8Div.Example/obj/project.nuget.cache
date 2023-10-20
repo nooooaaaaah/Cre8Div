@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "GIdXlwZo2b42nhpOX3KXZqoJV1GycDpsl//s6O9Jq5m/H6wFIh7OZ4+SysrBi/tjkmu8S1Z6qYDuWfiMFxXjKg==",
+  "success": true,
+  "projectFilePath": "/Users/noahspielman/Projects/tools/Cre8Div/Cre8Div.Example/Cre8Div.Example.csproj",
+  "expectedPackageFiles": [
+    "/Users/noahspielman/.nuget/packages/cre8div/1.0.0/cre8div.1.0.0.nupkg.sha512",
+    "/Users/noahspielman/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.11/microsoft.aspnetcore.app.ref.7.0.11.nupkg.sha512",
+    "/Users/noahspielman/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.11/microsoft.netcore.app.host.osx-arm64.7.0.11.nupkg.sha512",
+    "/Users/noahspielman/.nuget/packages/microsoft.netcore.app.ref/7.0.11/microsoft.netcore.app.ref.7.0.11.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.88.239:5555/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/noahspielman/Projects/tools/Cre8Div/obj/Release/net8.0/scopedcss/projectbundle/Cre8Div.bundle.scp.css",
+      "PackagePath": "staticwebassets/Cre8Div.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/noahspielman/Projects/tools/Cre8Div/wwwroot/background.png",
+      "PackagePath": "staticwebassets/background.png"
+    },
+    {
+      "Id": "/Users/noahspielman/Projects/tools/Cre8Div/wwwroot/exampleJsInterop.js",
+      "PackagePath": "staticwebassets/exampleJsInterop.js"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.Cre8Div.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.build.Cre8Div.props",
+      "PackagePath": "build\\Cre8Div.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildMultiTargeting.Cre8Div.props",
+      "PackagePath": "buildMultiTargeting\\Cre8Div.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildTransitive.Cre8Div.props",
+      "PackagePath": "buildTransitive\\Cre8Div.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

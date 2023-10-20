@@ -1,0 +1,129 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Cre8Div/1.0.0": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Cre8Div.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Cre8Div.props": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cre8Div/1.0.0": {
+      "sha512": "an4ilLfSVBP3pCH/SzalTTis1dE3HtaJ9PqQ4aO2JMLZ1I5CoDqexNllzv7YS1GyBWXXd1bN4+7ee8yqj3i43A==",
+      "type": "package",
+      "path": "cre8div/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "build/Cre8Div.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Cre8Div.props",
+        "buildTransitive/Cre8Div.props",
+        "cre8div.1.0.0.nupkg.sha512",
+        "cre8div.nuspec",
+        "lib/net8.0/Cre8Div.dll",
+        "staticwebassets/Cre8Div.bundle.scp.css",
+        "staticwebassets/background.png",
+        "staticwebassets/exampleJsInterop.js"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Cre8Div >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/noahspielman/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/noahspielman/Projects/tools/Cre8Div/Cre8Div.Example/Cre8Div.Example.csproj",
+      "projectName": "Cre8Div.Example",
+      "projectPath": "/Users/noahspielman/Projects/tools/Cre8Div/Cre8Div.Example/Cre8Div.Example.csproj",
+      "packagesPath": "/Users/noahspielman/.nuget/packages/",
+      "outputPath": "/Users/noahspielman/Projects/tools/Cre8Div/Cre8Div.Example/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/noahspielman/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "http://192.168.88.239:5555/v3/index.json": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Cre8Div": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.11, 7.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[7.0.11, 7.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.11, 7.0.11]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-rc.1.23463.5/RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.88.239:5555/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

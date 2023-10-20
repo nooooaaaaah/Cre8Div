@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Cre8Div</id>
+    <version>1.0.0</version>
+    <authors>Cre8Div</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="8.0.0-rc.1.23421.29" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/noahspielman/Projects/tools/Cre8Div/bin/Release/net8.0/Cre8Div.dll" target="lib/net8.0/Cre8Div.dll" />
+    <file src="/Users/noahspielman/Projects/tools/Cre8Div/obj/Release/net8.0/scopedcss/projectbundle/Cre8Div.bundle.scp.css" target="staticwebassets/Cre8Div.bundle.scp.css" />
+    <file src="/Users/noahspielman/Projects/tools/Cre8Div/wwwroot/background.png" target="staticwebassets/background.png" />
+    <file src="/Users/noahspielman/Projects/tools/Cre8Div/wwwroot/exampleJsInterop.js" target="staticwebassets/exampleJsInterop.js" />
+    <file src="/Users/noahspielman/Projects/tools/Cre8Div/obj/Release/net8.0/staticwebassets/msbuild.Cre8Div.Microsoft.AspNetCore.StaticWebAssets.props" target="build/Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="/Users/noahspielman/Projects/tools/Cre8Div/obj/Release/net8.0/staticwebassets/msbuild.build.Cre8Div.props" target="build/Cre8Div.props" />
+    <file src="/Users/noahspielman/Projects/tools/Cre8Div/obj/Release/net8.0/staticwebassets/msbuild.buildMultiTargeting.Cre8Div.props" target="buildMultiTargeting/Cre8Div.props" />
+    <file src="/Users/noahspielman/Projects/tools/Cre8Div/obj/Release/net8.0/staticwebassets/msbuild.buildTransitive.Cre8Div.props" target="buildTransitive/Cre8Div.props" />
+  </files>
+</package>
