@@ -1,3 +1,34 @@
-﻿<div class="my-component">
-    This component is defined in the <strong>Cre8Div</strong> library.
+﻿<div class="canvas" style="width: @Width; height: @Height;">
+    @foreach (var widget in Widgets)
+    {
+        <div class="div" style="left: @widget.Left; top: @widget.Top; width: @widget.Width; height: @widget.Height;"
+            @onclick="() => OnDivClick(widget)" @ref="widgetRef">
+            @widget.Content
+        </div>
+    }
 </div>
+
+@code {
+    [Parameter]
+    public List<Widget> Widgets { get; set; }
+
+    [Parameter]
+    public string Width { get; set; }
+
+    [Parameter]
+    public string Height { get; set; }
+
+    [Parameter]
+    public EventCallback<Widget> OnDivClick { get; set; }
+
+    private ElementReference widgetRef;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("addDraggable", widgetRef);
+            await JSRuntime.InvokeVoidAsync("addResizable", widgetRef);
+        }
+    }
+}
